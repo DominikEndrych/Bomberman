@@ -1,0 +1,7 @@
+up=w
+down=s
+left=a
+right=d
+bomb=f
+nEnemies=2
+nBoxes=4
