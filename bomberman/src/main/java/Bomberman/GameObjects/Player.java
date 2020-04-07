@@ -76,9 +76,7 @@ public class Player implements Killable {
     }
     
     @Override
-    public void die(){
-        //TODO: implement
-    }
+    public void die(){}
     
     @Override
     public void draw(GraphicsContext gc){
