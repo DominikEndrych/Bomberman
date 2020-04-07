@@ -76,9 +76,7 @@ public class Enemy implements Killable {
     }
     
     @Override
-    public void die(){
-        //TODO: implement
-    }
+    public void die(){}
     
     public int getX(){
         return this.x;
@@ -146,7 +144,7 @@ public class Enemy implements Killable {
             Random rand = new Random();
             onStred = false;
             
-            //sledujeme, jestli je enemy na rozcestí
+            //sledujeme, jestli je enemy na rozcestÃ­
             if( (this.getX() - 40) % 80 == 0 && (this.getY() - 40) % 80 == 0){
                 osa = rand.nextInt(2);
                 smer = rand.nextInt(2);
